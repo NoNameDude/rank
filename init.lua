@@ -34,7 +34,7 @@ minetest.register_chatcommand("rank", {
 		player:set_attribute("rank_name", param2)
 	end
 	
-	if param3 == "blue" or param3 == "red" then
+	if param3 == "blue" or param3 == "red" or param == "yellow" or param == "green" or param == "black" or param == "white" then
 		player:set_attribute("rank_color", param3)
 	else
 		return
