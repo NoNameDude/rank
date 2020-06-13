@@ -48,7 +48,7 @@ minetest.register_chatcommand("rank", {
 rank_color = {
 	red = "#FF0000",
 	blue = "#0000FF",
-	yellow = "FFFF00",
+	yellow = "#FFFF00",
 	green = "#008000",
 	black = "#000000",
 	white = "#FFFFFF"
